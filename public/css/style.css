@@ -18836,6 +18836,13 @@ body .article-5 .container .container .enveloppe {
 body .article-5 .container .container .enveloppe i {
   font-size: 60px;
 }
+body footer .decoration {
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  background-repeat: repeat-x;
+}
+body footer .pour-fond-noir {
+  background-image: url("../../public/images/footer_background.jpg");
+}
 body footer .pour-fond-noir .container .row .col-4 a i {
   font-size: 40px;
 }
