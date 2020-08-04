@@ -18703,38 +18703,38 @@ body .article-1 .container {
   background-color: white;
   border: solid 2px #E5E5E4;
 }
-body .article-1 .container .row .col-5 {
-  border-bottom: dotted #CCCCCC 0.5px;
-}
-body .article-1 .container .row .col-5 img {
-  border-radius: 50%;
-  border: solid 6px #EFEFEF;
-  height: 130px;
-  width: 130px;
-}
-body .article-1 .container .row .col-5 .text-danger {
-  background-color: #EFEFEF;
-}
-body .article-1 .container .row .col-2 {
-  border-right: solid #CCCCCC 1px;
+body .article-1 .container .row .col-2 .d-flex {
   border-bottom: solid #CCCCCC 1px;
 }
-body .article-1 .container .row .col-2 .fas {
+body .article-1 .container .row .col-2 .d-flex a .fas {
   font-size: 60px;
   color: #CCCCCC;
 }
-body .article-1 .container .row .banane {
-  border-bottom: none;
-}
-body .article-1 .container .row .col-2:hover {
+body .article-1 .container .row .col-2 .d-flex:hover {
   border-right: solid #C42D40 8px;
 }
-body .article-1 .container .row .col-2:hover .fas {
+body .article-1 .container .row .col-2 .d-flex:hover a .fas {
   color: #C42D40;
 }
-body .article-1 .container .row .banane:hover {
-  border-right: none;
-  border-right: solid #CCCCCC 1px;
+body .article-1 .container .row .col-5 .d-flex {
+  border-bottom: dotted #CCCCCC 2px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+body .article-1 .container .row .col-5 .d-flex img {
+  border-radius: 50%;
+  border: solid 6px #efefef;
+  height: 130px;
+  width: 130px;
+}
+body .article-1 .container .row .col-5 .d-flex .d-flex {
+  border: none;
+}
+body .article-1 .container .row .col-5 .d-flex .text-danger {
+  background-color: #EFEFEF;
+}
+body .article-1 .container .row .banane {
+  border-left: solid 2px #EFEFEF;
 }
 body .article-2 {
   position: relative;
