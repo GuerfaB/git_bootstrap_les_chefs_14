@@ -18696,6 +18696,12 @@ body header div #carouselExampleIndicators .carousel-inner .row .col .d-flex but
 body header div #carouselExampleIndicators .carousel-inner .row .col .d-flex button:hover a span {
   color: black;
 }
+body .decoration-header {
+  background-color: #110f0fd7;
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  background-repeat: repeat-x;
+  height: 10px;
+}
 body .article-1 {
   background-image: url("../../public/images/main_bg.jpg");
 }
