@@ -14,7 +14,12 @@ body
                 position: relative
                 div
                         nav
+                                img
+                                        display: none
                                 div
+                                        img
+                                                display: block
+                                        
                                         ul
                                                 border: solid #E5E5E4 1px
                                                 border-left: none
@@ -128,8 +133,10 @@ body
                         background-color: white
                         border: solid 2px #E5E5E4
                         .container
-                                width: 800px
-                                height: 550px
+                                margin-left: 10%
+                                margin-right: 10%
+                                width: auto
+                                height: auto
                                 background-image: url("../../public/images/book_table_bg.jpg")
                                 border-radius: 20px
                                 form
@@ -191,22 +198,36 @@ body
                        .container
                        
                                .row
-                                       .col-2
+                                       .fraise
                                                img
                                                        border-radius: 50%
                                                        border: solid white 6px
                                                        width: 170px
                                                        height: 170px
-                                       .col-4       
+                                       .melon       
                                                .d-flex
                                                         border: solid white 2px
                                                         border-radius: 20px
+                                       .cerise
+                                               .d-flex
+                                                        border: solid white 2px
+                                                        border-radius: 20px
+                                       .poire
+                                               img
+                                                       border-radius: 50%
+                                                       border: solid white 6px
+                                                       width: 170px
+                                                       height: 170px
+
+
         .article-5
                 background-image: url("../../public/images/main_bg.jpg")
                 .container
                         .container
-                                width: 550px
-                                height: 550px    
+                                width: auto
+                                height: auto
+                                margin-left: 15%
+                                margin-right: 15%   
                                 border-radius: 20px
                                 .d-flex
                                         border-bottom: solid white 1px
@@ -225,6 +246,7 @@ body
                 
                         .container
                                 .row
+                                        
                                         .col-4
                                                 a
                                                         i
@@ -286,6 +308,118 @@ body
                 width: 100%
                 height: 100%
                 filter: brightness(75%)
+
+@media  (max-width: 992px)
+        header
+                .navbar
+                        img
+                                display: block
+                                margin-right: auto
+                        button
+                                
+                                margin-left: auto
+                        .collapse
+                                
+                                
+                                img
+                                       display: none 
+                                        
+
+                                        
+                                        
+                                ul
+                                        display: flex
+                                        flex-direction: columns
+                                        justify-content: center
+                                        align-items: center
+                                        border: none
+
+
+        .article-2
+                
+                .container
+                        
+                        .row
+                                .col-3
+                                        margin-bottom: 30px
+        .article-3
+                .container
+                        .row
+                                .col-6
+                                        margin-bottom: 30px
+        .footer
+
+                .pour-fond-noir
+                        .container
+                                .row
+                                        .d-flex
+                                                justify-content: center
+                                                
+@media (max-width: 768px)
+        header
+                position: relative
+                div
+                        nav
+                                img
+                                        display: none
+                                div
+                                        img
+                                                display: block
+                                        
+                                        ul
+                                                border: solid #E5E5E4 1px
+                                                border-left: none
+                                                border-right: none
+                                                li:hover
+                                                                background-color: #C42D40
+                                                
+                        #carouselExampleIndicators
+                                        .carousel-indicators
+                                                        li
+                                                                width: 30px
+                                                                height: 30px
+                                                                border-radius: 100%
+                                                        li:hover
+                                                                border: solid #E5E5E4 2px
+                                                                padding: 2px
+                                                                
+                                        
+                                                        
+                                        .carousel-inner
+                                                .row
+                                                        .col
+                                                                .d-flex
+                                                                        flex-direction: column
+                                                                        
+        .article-1
+                .container
+                        .container-fluid
+                                padding: 0px
+
+        .article-4
+                .container
+                        .container
+                                .row
+                                        .fraise
+                                                order: -1
+                                                display: flex
+                                                justify-content: center
+                                        .melon
+                                                order: 0
+                                        .cerise 
+                                                order: 2
+                                        .poire
+                                                order: 1
+                                                display: flex
+                                                justify-content: center
+        
+   
+                                                
+                                        
+
+
+
+        
         
 
         
